@@ -1,0 +1,99 @@
+/* src/pages/Contact.module.css */
+
+.root {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: -10px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+  }
+  
+  @media (max-width: 680px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  .left {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 3rem;
+    max-width: 400px;
+  }
+  
+  .left p {
+    margin: 0;
+    font-size: 4rem;
+  }
+  
+  .left .highlight {
+    color: #4d54da;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .email {
+    color: #ffffff;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+  }
+
+  .email:hover {
+    color: #4d54da;
+  }
+  
+  .github {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    transition: color 0.2s;
+  }
+  
+  .github:hover {
+    color: #4d54da;
+  }
+  
+  .githubIcon {
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .githubText {
+    font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+    margin-left: 1rem;
+  }
+
+  .githubText:hover {
+    color: #4d54da;
+  }
+  

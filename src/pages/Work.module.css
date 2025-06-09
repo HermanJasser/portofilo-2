@@ -1,0 +1,62 @@
+.root {
+    padding: 2rem 1rem;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .cardTitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .cardDesc {
+    font-size: 1rem;
+    color: #e5e7eb; /* litt lys grå for kontrast */
+    flex-grow: 1;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #4d54da;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    width: fit-content;
+  }
+  
+  .button:hover {
+    background-color: #6366f1;
+  }
+  

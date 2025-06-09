@@ -1,0 +1,57 @@
+const projects = [
+    {
+      id: 'holidaze',
+      title: 'Holidaze',
+      description:
+        'A vacation-rental booking app built with React, Vite & Tailwind CSS, using the Noroff Holidaze API.',
+      image: '/assets/holidaze-screenshot.png',
+      imageCaption: 'Screenshot of Holidaze landing page',
+      liveUrl: ' https://holidaze-herman.netlify.app/',
+      repoUrl: 'https://github.com/HermanJasser/Exam-v-r-2025-holidaze',
+      reflections: `
+        **What I learned:**\n
+        - Authentication with JWT.\n
+        - Responsive grid layout.\n
+        - API-error handling.\n
+        \n
+        **Future improvements:**\n
+        - Add unit tests for form validation.\n
+        - Implement dark mode.\n
+        - Improve image-lazy-loading.
+      `,
+    },
+    {
+      id: 'markedet',
+      title: 'Markedet',
+      description:
+        'A modern auction house built with Vite, Tailwind CSS, and Vanilla JavaScript.',
+      image: '/assets/markedet-screenshot.png',
+      imageCaption: 'Markedet homepage showing listing grid',
+      liveUrl: 'https://markedet.netlify.app/',
+      repoUrl: 'https://github.com/HermanJasser/semester-prosjekt-2-auction-house',
+      reflections: `
+        **What I learned:**\n
+        - DOM-manipulation without frameworks.\n
+        - Setting up WebSocket-based live updates.\n
+        \n
+        **Future improvements:**\n
+        - Add bid history modal.\n
+        - Write e2e-tester med Cypress.
+      `,
+    },
+    {
+        id: 'Ecom',
+        title: 'Ecom',
+        description:
+          'An ecommerce store selling different items built with React, css modules and using the Noroff online store API.',
+        image: '/assets/ecom-screenshot.png',
+        imageCaption: 'Markedet homepage showing listing grid',
+        liveUrl: 'https://ecomca.netlify.app/',
+        repoUrl: 'https://github.com/HermanJasser/js-frameworks-ca-react-ecom',
+        reflections: `In this project i learned the importance of consistent, lowercase class naming and cleaning up console logs, how to debug webpack script‐loading issues,and how to manage React state across routes for reliable UI behavior.
+        `,
+      },
+  ]
+  
+  export default projects
+  
