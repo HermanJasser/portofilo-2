@@ -1,17 +1,15 @@
-// src/components/Header.jsx
 import { NavLink } from 'react-router-dom'
+import styles from './Header.module.css'
 
 export default function Header() {
-  const commonClasses = 'text-[#4D54DA] text-[30px] transition-colors duration-200 hover:text-[#ffffff]';
-
   return (
-    <header className="w-full h-[100px] bg-white flex items-center border-b border-gray-300">
-      <nav className="mx-auto flex justify-between items-center space-x-6 w-[60vw]">
+    <header className={styles.header}>
+      <nav className={styles.nav}>
         <NavLink
           to="/"
           end
           className={({ isActive }) =>
-            `${commonClasses} ${isActive ? 'underline' : 'no-underline'}`
+            `${styles.navLink} ${isActive ? styles.active : ''}`
           }
         >
           Home
@@ -20,7 +18,7 @@ export default function Header() {
         <NavLink
           to="/work"
           className={({ isActive }) =>
-            `${commonClasses} ${isActive ? 'underline' : 'no-underline'}`
+            `${styles.navLink} ${isActive ? styles.active : ''}`
           }
         >
           Work
@@ -29,7 +27,7 @@ export default function Header() {
         <NavLink
           to="/contact"
           className={({ isActive }) =>
-            `${commonClasses} ${isActive ? 'underline' : 'no-underline'}`
+            `${styles.navLink} ${isActive ? styles.active : ''}`
           }
         >
           Contact me
@@ -38,5 +36,3 @@ export default function Header() {
     </header>
   )
 }
-
-
