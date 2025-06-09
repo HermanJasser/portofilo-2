@@ -8,16 +8,7 @@ const projects = [
       imageCaption: 'Screenshot of Holidaze landing page',
       liveUrl: ' https://holidaze-herman.netlify.app/',
       repoUrl: 'https://github.com/HermanJasser/Exam-v-r-2025-holidaze',
-      reflections: `
-        **What I learned:**\n
-        - Authentication with JWT.\n
-        - Responsive grid layout.\n
-        - API-error handling.\n
-        \n
-        **Future improvements:**\n
-        - Add unit tests for form validation.\n
-        - Implement dark mode.\n
-        - Improve image-lazy-loading.
+      reflections: `On this project i learned more about react and all its features, such as hooks, context and routing. React date handling was also a big part of this project. 
       `,
     },
     {
@@ -29,14 +20,7 @@ const projects = [
       imageCaption: 'Markedet homepage showing listing grid',
       liveUrl: 'https://markedet.netlify.app/',
       repoUrl: 'https://github.com/HermanJasser/semester-prosjekt-2-auction-house',
-      reflections: `
-        **What I learned:**\n
-        - DOM-manipulation without frameworks.\n
-        - Setting up WebSocket-based live updates.\n
-        \n
-        **Future improvements:**\n
-        - Add bid history modal.\n
-        - Write e2e-tester med Cypress.
+      reflections: `In this project i learned more about the Noroff api, how to create a custom hook for fetching data, and how to implement a search function. I also learned how to use Tailwind CSS for styling and how to create a responsive layout.
       `,
     },
     {
